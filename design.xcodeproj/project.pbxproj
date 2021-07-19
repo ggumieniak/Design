@@ -22,6 +22,8 @@
 		508891F826A4B8CA005F495E /* ViewDirector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508891F726A4B8CA005F495E /* ViewDirector.swift */; };
 		508891FD26A4C110005F495E /* ShortDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508891FC26A4C110005F495E /* ShortDescription.swift */; };
 		508891FF26A4C156005F495E /* LongestDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508891FE26A4C156005F495E /* LongestDescription.swift */; };
+		5088920126A57F1D005F495E /* PlaceInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5088920026A57F1D005F495E /* PlaceInformation.swift */; };
+		5088920326A57F46005F495E /* Page+Placeinformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5088920226A57F46005F495E /* Page+Placeinformation.swift */; };
 		50E5787A26A2D07600459088 /* MKPointAnnotationCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E5787926A2D07600459088 /* MKPointAnnotationCodable.swift */; };
 		50E5787C26A2D5E800459088 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E5787B26A2D5E800459088 /* DataManager.swift */; };
 		50E5787E26A2D5FB00459088 /* FilePersistency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E5787D26A2D5FB00459088 /* FilePersistency.swift */; };
@@ -46,6 +48,8 @@
 		508891F726A4B8CA005F495E /* ViewDirector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDirector.swift; sourceTree = "<group>"; };
 		508891FC26A4C110005F495E /* ShortDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortDescription.swift; sourceTree = "<group>"; };
 		508891FE26A4C156005F495E /* LongestDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestDescription.swift; sourceTree = "<group>"; };
+		5088920026A57F1D005F495E /* PlaceInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceInformation.swift; sourceTree = "<group>"; };
+		5088920226A57F46005F495E /* Page+Placeinformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Page+Placeinformation.swift"; sourceTree = "<group>"; };
 		50E5787926A2D07600459088 /* MKPointAnnotationCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MKPointAnnotationCodable.swift; sourceTree = "<group>"; };
 		50E5787B26A2D5E800459088 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		50E5787D26A2D5FB00459088 /* FilePersistency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilePersistency.swift; sourceTree = "<group>"; };
@@ -120,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				506FB66A26A21372009AC787 /* MKPointAnnotation-ObservableObject.swift */,
+				5088920226A57F46005F495E /* Page+Placeinformation.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -137,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				506FB66E26A21902009AC787 /* Result.swift */,
+				5088920026A57F1D005F495E /* PlaceInformation.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -240,6 +246,8 @@
 				50E5787E26A2D5FB00459088 /* FilePersistency.swift in Sources */,
 				506FB66926A1DDD5009AC787 /* MapView.swift in Sources */,
 				508891F826A4B8CA005F495E /* ViewDirector.swift in Sources */,
+				5088920126A57F1D005F495E /* PlaceInformation.swift in Sources */,
+				5088920326A57F46005F495E /* Page+Placeinformation.swift in Sources */,
 				506FB66D26A213F5009AC787 /* EditView.swift in Sources */,
 				506FB65326A1D9A2009AC787 /* SceneDelegate.swift in Sources */,
 				508474E426A3562B0027C2BD /* ContentViewModel.swift in Sources */,

@@ -14,7 +14,8 @@ class EditViewModel: ObservableObject {
     @Published var loadingState = LoadingState.loading
     @Published var pages = [Page]()
     @Published var placemark: MKPointAnnotation
-    var viewBuilder = ViewDirector()
+//    var viewBuilder = ViewDirector()
+    var viewFactory = ViewFactory()
     
     init(placemark: MKPointAnnotation) {
         self.placemark = placemark
