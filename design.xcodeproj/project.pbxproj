@@ -19,7 +19,7 @@
 		506FB66D26A213F5009AC787 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506FB66C26A213F5009AC787 /* EditView.swift */; };
 		506FB66F26A21902009AC787 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506FB66E26A21902009AC787 /* Result.swift */; };
 		508474E426A3562B0027C2BD /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508474E326A3562B0027C2BD /* ContentViewModel.swift */; };
-		508891F826A4B8CA005F495E /* ViewDirector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508891F726A4B8CA005F495E /* ViewDirector.swift */; };
+		508891F826A4B8CA005F495E /* ViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508891F726A4B8CA005F495E /* ViewFactory.swift */; };
 		508891FD26A4C110005F495E /* ShortDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508891FC26A4C110005F495E /* ShortDescription.swift */; };
 		508891FF26A4C156005F495E /* LongestDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508891FE26A4C156005F495E /* LongestDescription.swift */; };
 		5088920126A57F1D005F495E /* PlaceInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5088920026A57F1D005F495E /* PlaceInformation.swift */; };
@@ -45,7 +45,7 @@
 		506FB66C26A213F5009AC787 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 		506FB66E26A21902009AC787 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		508474E326A3562B0027C2BD /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
-		508891F726A4B8CA005F495E /* ViewDirector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDirector.swift; sourceTree = "<group>"; };
+		508891F726A4B8CA005F495E /* ViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewFactory.swift; sourceTree = "<group>"; };
 		508891FC26A4C110005F495E /* ShortDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortDescription.swift; sourceTree = "<group>"; };
 		508891FE26A4C156005F495E /* LongestDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestDescription.swift; sourceTree = "<group>"; };
 		5088920026A57F1D005F495E /* PlaceInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceInformation.swift; sourceTree = "<group>"; };
@@ -163,7 +163,7 @@
 				50E5787B26A2D5E800459088 /* DataManager.swift */,
 				50E5787D26A2D5FB00459088 /* FilePersistency.swift */,
 				50E5787F26A2D60800459088 /* WikipediaRequests.swift */,
-				508891F726A4B8CA005F495E /* ViewDirector.swift */,
+				508891F726A4B8CA005F495E /* ViewFactory.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -245,7 +245,7 @@
 				50E5788026A2D60800459088 /* WikipediaRequests.swift in Sources */,
 				50E5787E26A2D5FB00459088 /* FilePersistency.swift in Sources */,
 				506FB66926A1DDD5009AC787 /* MapView.swift in Sources */,
-				508891F826A4B8CA005F495E /* ViewDirector.swift in Sources */,
+				508891F826A4B8CA005F495E /* ViewFactory.swift in Sources */,
 				5088920126A57F1D005F495E /* PlaceInformation.swift in Sources */,
 				5088920326A57F46005F495E /* Page+Placeinformation.swift in Sources */,
 				506FB66D26A213F5009AC787 /* EditView.swift in Sources */,

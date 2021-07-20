@@ -11,12 +11,7 @@ import Combine
 
 class ContentViewModel: ObservableObject {
     @Published var centerCoordinate = CLLocationCoordinate2D()
-    @Published var locations = [CodableMKPointAnnotation]() {
-        willSet {
-            print("locations are changed")
-            
-        }
-    }
+    @Published var locations = [CodableMKPointAnnotation]()
     @Published var selectedPlace: MKPointAnnotation?
     @Published var showingPlaceDetails = false
     @Published var showingEditScreen = false

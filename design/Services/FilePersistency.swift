@@ -18,7 +18,6 @@ final class FilePersistency {
         do {
             let data = try Data(contentsOf: fileName)
             let locations = try JSONDecoder().decode([CodableMKPointAnnotation].self, from: data)
-            print(locations[0])
             return locations
         } catch {
             print("Unable to load data.")
