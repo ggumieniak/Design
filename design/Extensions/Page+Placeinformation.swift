@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension Page: PlaceInformationType {
+extension Page: PlaceInformationAdapter {
     func getInformation() -> PlaceInformation {
         return PlaceInformation(title: title, description: dictToDescription(dict: terms))
     }

@@ -7,11 +7,11 @@
 
 import Foundation
 
-protocol PlaceInformationType {
+protocol PlaceInformationAdapter {
     func getInformation() -> PlaceInformation
 }
 
-struct PlaceInformation: PlaceInformationType {
+struct PlaceInformation {
     var title: String
     var description: String
     func getInformation() -> PlaceInformation {
