@@ -23,7 +23,6 @@ struct EditView: View {
                 Section(header: Text("Pobliskie")) {
                     if viewModel.loadingState == .loaded {
                         List(viewModel.pages, id: \.pageid) { page in
-//                            viewModel.viewBuilder.build(page: page)
                             viewModel.viewFactory.createView(context: page.getInformation())
                         }
                     } else if viewModel.loadingState == .loading {

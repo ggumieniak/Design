@@ -18,6 +18,7 @@
 		506FB66B26A21372009AC787 /* MKPointAnnotation-ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506FB66A26A21372009AC787 /* MKPointAnnotation-ObservableObject.swift */; };
 		506FB66D26A213F5009AC787 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506FB66C26A213F5009AC787 /* EditView.swift */; };
 		506FB66F26A21902009AC787 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506FB66E26A21902009AC787 /* Result.swift */; };
+		50841FDC26A83C4600825166 /* PlaceInformation+PlaceInformationAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50841FDB26A83C4600825166 /* PlaceInformation+PlaceInformationAdapter.swift */; };
 		508474E426A3562B0027C2BD /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508474E326A3562B0027C2BD /* ContentViewModel.swift */; };
 		508891F826A4B8CA005F495E /* ViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508891F726A4B8CA005F495E /* ViewFactory.swift */; };
 		508891FD26A4C110005F495E /* ShortDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508891FC26A4C110005F495E /* ShortDescription.swift */; };
@@ -44,6 +45,7 @@
 		506FB66A26A21372009AC787 /* MKPointAnnotation-ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKPointAnnotation-ObservableObject.swift"; sourceTree = "<group>"; };
 		506FB66C26A213F5009AC787 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 		506FB66E26A21902009AC787 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		50841FDB26A83C4600825166 /* PlaceInformation+PlaceInformationAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlaceInformation+PlaceInformationAdapter.swift"; sourceTree = "<group>"; };
 		508474E326A3562B0027C2BD /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		508891F726A4B8CA005F495E /* ViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewFactory.swift; sourceTree = "<group>"; };
 		508891FC26A4C110005F495E /* ShortDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortDescription.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 			children = (
 				506FB66A26A21372009AC787 /* MKPointAnnotation-ObservableObject.swift */,
 				5088920226A57F46005F495E /* Page+Placeinformation.swift */,
+				50841FDB26A83C4600825166 /* PlaceInformation+PlaceInformationAdapter.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 				50E5787A26A2D07600459088 /* MKPointAnnotationCodable.swift in Sources */,
 				506FB65126A1D9A2009AC787 /* AppDelegate.swift in Sources */,
 				508891FF26A4C156005F495E /* LongestDescription.swift in Sources */,
+				50841FDC26A83C4600825166 /* PlaceInformation+PlaceInformationAdapter.swift in Sources */,
 				50E5788026A2D60800459088 /* WikipediaRequests.swift in Sources */,
 				50E5787E26A2D5FB00459088 /* FilePersistency.swift in Sources */,
 				506FB66926A1DDD5009AC787 /* MapView.swift in Sources */,
