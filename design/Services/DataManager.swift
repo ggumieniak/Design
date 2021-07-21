@@ -19,7 +19,7 @@ final class DataManager {
     }
     
     func saveLocations(locations: [CodableMKPointAnnotation]) {
-        return filePersistency.saveData(locations: locations)
+        filePersistency.saveData(locations: locations)
     }
     
     func getPlaceNearby(at placemark: MKPointAnnotation, page closure: @escaping ([Page]) -> ()){
